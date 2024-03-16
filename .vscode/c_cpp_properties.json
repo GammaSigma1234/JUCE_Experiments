@@ -1,0 +1,30 @@
+{
+  "configurations":
+  [
+    {
+      "name": "Win32",
+      "includePath":
+      [
+        "${workspaceFolder}/Animation_Test/Source/**",
+        "${workspaceFolder}/Animation_Test/JuceLibraryCode/**",
+
+        "${workspaceFolder}/GUI_Test/Source/**",
+        "${workspaceFolder}/GUI_Test/JuceLibraryCode/**",
+
+        "${env:JUCE_DIR}/modules/**" // Path to local JUCE installation directory
+      ],
+      "defines":
+      [
+        "_DEBUG",
+        "UNICODE",
+        "_UNICODE"
+      ],
+      // "windowsSdkVersion": "10.0.22621.0",
+      "compilerPath": "${env:GPP_POSIX}", // Replace with path to your own C++ compiler (POSIX compliance not required)
+      "cStandard": "c17",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "gcc-x64"
+    }
+  ],
+  "version": 4
+}
