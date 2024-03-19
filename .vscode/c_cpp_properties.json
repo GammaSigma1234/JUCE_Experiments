@@ -5,11 +5,14 @@
       "name": "Win32",
       "includePath":
       [
-        "${workspaceFolder}/Animation_Test/Source/**",
-        "${workspaceFolder}/Animation_Test/JuceLibraryCode/**",
+        "${workspaceFolder}/experiments/Animation_Test/Source/**",
+        "${workspaceFolder}/experiments/Animation_Test/JuceLibraryCode/**",
 
-        "${workspaceFolder}/GUI_Test/Source/**",
-        "${workspaceFolder}/GUI_Test/JuceLibraryCode/**",
+        "${workspaceFolder}/experiments/ComboBox_Test/Source/**",
+        "${workspaceFolder}/experiments/ComboBox_Test/JuceLibraryCode/**",
+
+        "${workspaceFolder}/tutorials/AnimationTutorial/Source/**",
+        "${workspaceFolder}/tutorials/AnimationTutorial/JuceLibraryCode/**",
 
         "${env:JUCE_DIR}/modules/**" // Path to local JUCE installation directory
       ],
