@@ -14,8 +14,11 @@ Experiments with JUCE framework.
   - [GUI Application](#gui-application)
   - [Audio Plugin](#audio-plugin)
 - [Examples](#examples)
-  - [`Animation_Test`](#animation_test)
-  - [`ComboBox_Test`](#combobox_test)
+  - [Offical Examples and Tutorials](#offical-examples-and-tutorials)
+    - [Animation Tutorial](#animation-tutorial)
+  - [Experiments](#experiments)
+    - [`Animation_Test`](#animation_test)
+    - [`ComboBox_Test`](#combobox_test)
 
 
 # JUCE
@@ -107,14 +110,42 @@ The Audio Plugin template's structure is quite different from all the other temp
 Descriptions of the examples versioned in this repository.
 
 
-## `Animation_Test`
+## Offical Examples and Tutorials
+
+- [Tutorials](https://juce.com/learn/tutorials)
+
+Offical examples and tutorials from JUCE's website.
+
+
+### Animation Tutorial
+
+- [Animation Tutorial](https://docs.juce.com/master/tutorial_animation.html)
+- [Jucer File](tutorials/AnimationTutorial/AnimationTutorial.jucer)
+
+From the ProJucer, all four `AnimationTutorial_0x.h` have been added. Each `AnimationTutorial_0x.h` refers to an incremental step in the tutorial. In order to compile and run the desired step, open `Main.cpp` and change the line:
+
+```C++
+#include "AnimationTutorial_0x.h"
+```
+
+to any of the following:
+
+- `#include AnimationTutorial_01.h`
+- `#include AnimationTutorial_02.h`
+- `#include AnimationTutorial_03.h`
+- `#include AnimationTutorial_04.h`
+
+
+## Experiments
+
+### `Animation_Test`
 
 - [Jucer File](Animation_Test/Animation_Test.jucer)
 
 2D animation of a dot on the $xy$ plane. The dot follows a circular motion, decomposed into its components along the $x$ and $y$ axes with sinusoidal functions.
 
 
-## `ComboBox_Test`
+### `ComboBox_Test`
 
 - [Jucer File](Animation_Test/ComboBox_Test.jucer)
 
