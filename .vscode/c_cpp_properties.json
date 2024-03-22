@@ -2,7 +2,7 @@
   "configurations":
   [
     {
-      "name": "Win32",
+      "name": "Win32 - MSVC",
       "includePath":
       [
         "${workspaceFolder}/experiments/Animation_Test/Source/**",
@@ -23,10 +23,10 @@
         "_UNICODE"
       ],
       // "windowsSdkVersion": "10.0.22621.0",
-      "compilerPath": "${env:GPP_POSIX}", // Replace with path to your own C++ compiler (POSIX compliance not required)
+      "compilerPath": "${env:MSVC}", // Path to Microsoft Visual C++ compiler
       "cStandard": "c17",
       "cppStandard": "c++17",
-      "intelliSenseMode": "gcc-x64"
+      "intelliSenseMode": "windows-msvc-x64"
     }
   ],
   "version": 4
